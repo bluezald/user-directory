@@ -5,6 +5,7 @@
         <img src="https://bulma.io/images/placeholders/128x128.png" />
         <div class="name">{{ user.name }}</div>
         <div class="username">@{{ user.username }}</div>
+        <div class="username">ID: {{ user.id }}</div>
       </div>
       <div class="details">
         <span class="label">

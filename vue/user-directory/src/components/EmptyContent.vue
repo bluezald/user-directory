@@ -1,6 +1,6 @@
 <template>
-  <div class="empty_state">
-    <i class="fa-solid fa-face-disappointed"></i>
+  <div class="empty-state">
+    <i class="fa fa-face-disappointed"></i>
     <h3 class="">{{ title }}</h3>
     <p>{{ description }}</p>
   </div>
@@ -26,3 +26,10 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.empty-state {
+  text-align: center;
+  padding-top: 4em;
+}
+</style>
